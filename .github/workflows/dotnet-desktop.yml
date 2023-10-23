@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: 'S7Backend'
+        working-directory: 'S7Backend/S7Backend'
     name: Collection-build
     steps:
       - uses: actions/checkout@v2
