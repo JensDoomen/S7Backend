@@ -202,17 +202,10 @@ jobs:
   #          file: ./CardCollector.Net6/OcelotAPIGateway/Dockerfile
   #          push: true
   #          tags: jensdoomen/s6_be:latest
-      
-  name: SonarCloud
-  on:
-    push:
-      branches:
-        - main
-    pull_request:
-      types: [opened, synchronize, reopened]
-  jobs:
-    build:
-      name: Build and analyze
+  
+
+  Sonarcloud:
+      name: Sonarcloud
       runs-on: windows-latest
       steps:
         - name: Set up JDK 17
