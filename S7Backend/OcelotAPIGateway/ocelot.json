@@ -1,0 +1,21 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 31187
+        }
+      ],
+      "UpstreamPathTemplate": "/S7Backend/WeatherForecast",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+
+  ],
+
+  "GlobalConfiguration": {
+    "BaseURL":  ""
+  }
+}
