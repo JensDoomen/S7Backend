@@ -6,11 +6,11 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 31187
+          "Port": 44354
         }
       ],
       "UpstreamPathTemplate": "/S7Backend/WeatherForecast",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Post" ]
     }
 
   ],
